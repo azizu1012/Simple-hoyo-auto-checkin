@@ -1,0 +1,8 @@
+discord.py
+flask[async]  # Thêm extra async để hỗ trợ async views
+genshin
+aiosqlite
+python-dotenv
+uvicorn
+httpx
+beautifulsoup4
