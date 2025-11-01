@@ -1,0 +1,8 @@
+discord.py
+flask
+genshin
+aiosqlite
+python-dotenv
+uvicorn
+httpx
+beautifulsoup4  # Thêm để parse HTML khi fetch codes
