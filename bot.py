@@ -25,7 +25,7 @@ bot = HoyolabBot()
 # Lệnh /register để gửi link web login
 @bot.tree.command(name="register", description="Bắt đầu đăng nhập qua web để bật auto check-in")
 async def register(interaction: discord.Interaction):
-    web_url = os.getenv("WEB_URL", "https://your-bot.onrender.com")
+    web_url = os.getenv("WEB_URL", "https://hoyo-auto-checkin.onrender.com")
     link = f"{web_url}/hoyolab/login?user_id={interaction.user.id}"
     await interaction.response.send_message(
         f"🔗 Vui lòng truy cập để đăng nhập: [Đăng nhập HoYoLab]({link})",
